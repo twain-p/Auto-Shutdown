@@ -1,0 +1,15 @@
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\bin\Debug\Auto Shutdown.exe.config
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\bin\Debug\Auto Shutdown.exe
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\bin\Debug\Auto Shutdown.pdb
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\Auto Shutdown.csprojResolveAssemblyReference.cache
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\MainWindow.g.cs
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\App.g.cs
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\Auto Shutdown_MarkupCompile.cache
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\Auto Shutdown_MarkupCompile.lref
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\MainWindow.baml
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\Auto Shutdown.g.resources
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\Auto_Shutdown.Properties.Resources.resources
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\Auto Shutdown.csproj.GenerateResource.Cache
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\Auto Shutdown.csproj.CoreCompileInputs.cache
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\Auto Shutdown.exe
+C:\Users\twain\workspace\Auto Shutdown\Auto Shutdown\obj\Debug\Auto Shutdown.pdb

@@ -1,0 +1,23 @@
+﻿<Window x:Class="Auto_Shutdown.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Auto_Shutdown"
+        mc:Ignorable="d"
+        Title="Auto Shutdown" Height="266" Width="408" AutomationProperties.Name="title" ResizeMode="CanMinimize" Background="#222">
+    <Grid Margin="0,0,51,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="59*"/>
+            <ColumnDefinition Width="458*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="applySettings" Content="Apply Settings" HorizontalAlignment="Left" Margin="40,120,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click" Grid.Column="1" Height="35" AutomationProperties.Name="applySettings" Background="#444" Foreground="white"/>
+        <Button x:Name="reset" Content="Reset" Grid.Column="1" HorizontalAlignment="Left" Margin="170,120,0,0" VerticalAlignment="Top" Width="110" Height="35" AutomationProperties.Name="reset" Click="Button_Click_1" Background="#444" Foreground="white"/>
+        <TextBlock x:Name="title" Grid.Column="1" HorizontalAlignment="Left" Margin="80,20,0,0" TextWrapping="Wrap" Text="Auto Shutdown" VerticalAlignment="Top" FontSize="24" AutomationProperties.Name="title" Foreground="white"/>
+        <TextBlock x:Name="shutDownInText" Grid.Column="1" Height="35" Width="110" Margin="40,75,161,0" TextWrapping="Wrap" VerticalAlignment="Top" AutomationProperties.Name="shutDownInText" TextAlignment="Center" Background="#444" Foreground="white"><Run Text="Shut down in"/><Run Text=":"/><Run Text=" (minutes)"/></TextBlock>
+        <TextBox x:Name="shutDownInput" Grid.Column="1" HorizontalAlignment="Left" Height="35" Margin="170,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" AutomationProperties.Name="shutDownInput" MaxLines="1" FontWeight="ExtraLight" TextAlignment="Center" Background="#444" Foreground="white"/>
+        <TextBlock x:Name="infoDisplay" Grid.Column="1" HorizontalAlignment="Left" Margin="60,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="200" TextAlignment="Center" Foreground="white"/>
+        <TextBlock x:Name="credit" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="90,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" TextAlignment="Center" Foreground="white" FontFamily="Segoe UI Light" Text="twain"/>
+
+    </Grid>
+</Window>
